@@ -1,10 +1,10 @@
-🟢 1. What does #include <iostream> do?
-It allows us to use input and output commands like cin and cout.
-Basically, it is what lets us talk to the user through the console.
+🟢 1. What does #include <iostream> mean?
+It tells the computer, “I want to use things that let me print or take input.” 
+iostream is a built-in C++ library that provides access to cout (for output) and cin (for input). 
+You pronounce cout as "see-out" and cin as "see-in".
 
 🟢 2. Why do we write using namespace std;?
-This line saves time, without it, you would have to write std::cout or std::cin every time.
-It helps make the code clean.
+C++ keeps most features in a thing called the “std” namespace. Writing this line saves you from typing std::cout every time and you can just write cout.
 
 🟢 3. What does string spells[3]; mean?
 That line creates an array that can store 3 words (spells in this case).
@@ -21,7 +21,7 @@ Arrays in C++ start counting from 0, not 1.
 So, the first element is spells[0], the second is spells[1], and the third is spells[2].
 
 🟢 6. Why did we print i+1 instead of just i?
-It is for better aesthetics ✨
+It is for better aesthetics ✨.
 When we print spell numbers for the user, we want them to see 1, 2, 3, not 0, 1, 2, so we add 1.
 
 🟢 7. What does cin >> spells[i]; do?
