@@ -1,0 +1,55 @@
+🟢 1. What does #include <iostream> mean?
+It is basically telling the computer, “Hey, I want to use stuff that lets me print things or take input!”
+iostream is a built-in C++ library that gives you access to cout (for output) and cin (for input).
+cout can be pronounced as "see-out".
+cin can be procounced as "see-in".
+
+🟢 2. Why do we write using namespace std;?
+C++ keeps most of its features inside something called the “std” namespace.
+Writing this line saves you from typing std::cout every time and you can just write cout.
+
+🟢 3. What does void mean before the function name?
+void simply means the function doesn’t give anything back.
+It does its job (printing “Hello World”) and that is it, no return value.
+
+🟢 4. What is a function in C++?
+A function is just a reusable block of code that does one specific thing.
+Here, function() is a small helper that prints your message whenever you call it.
+
+🟢 5. Why do we call the function inside main()?
+Because that’s where the program actually starts running.
+If you don’t call the function from main(), it just sits there and never runs.
+
+🟢 6. What does return 0; do?
+It tells the computer, “Everything ran fine, no errors here!”
+If the program had issues, it might return another number instead.
+
+🟢 7. Why do we use cout to print text?
+cout stands for “console output.”
+It is the way you tell your program to show something on the screen.
+
+🟢 8. Can I print “Hello World” without using a function?
+Yesss!!! You can just write ->
+cout << "Hello World"; 
+inside main().
+But using a function makes your code neater and clean, especially when your program gets bigger.
+
+🟢 9. Can a function return something instead of void?
+Yes! If you want your function to give back a message instead of just printing it, you can do this:
+string getMessage() {
+    return "Hello World";
+}
+Then inside main():
+cout << getMessage();
+That is how you make a function return something.
+
+🟢 10. What if I forget using namespace std;?
+Then you’ll have to write:
+std::cout << "Hello World";
+It is just a bit longer, not wrong.
+That’s why many beginners add using namespace std; at the top.
+
+🟢 11. Can I change the function name?
+Sure!!! You can name it anything like Hello() or PrintHello().
+Just make sure you call it with the same name inside main().
+
