@@ -36,11 +36,11 @@ But using a function makes your code neater and clean, especially when your prog
 
 🟢 9. Can a function return something instead of void?
 Yes! If you want your function to give back a message instead of just printing it, you can do this:
-string getMessage() {
+string function() {
     return "Hello World";
 }
 Then inside main():
-cout << getMessage();
+cout << function();
 That is how you make a function return something.
 
 🟢 10. What if I forget using namespace std;?
