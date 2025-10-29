@@ -22,7 +22,7 @@ Arrays in C++ start counting from 0, not 1.
 So, the first element is spells[0], the second is spells[1], and the third is spells[2].
 
 🟢 6. Why did we print i+1 instead of just i?
-It’s for better aesthetics ✨
+It is for better aesthetics ✨
 When we print spell numbers for the user, we want them to see 1, 2, 3, not 0, 1, 2, so we add 1.
 
 🟢 7. What does cin >> spells[i]; do?
