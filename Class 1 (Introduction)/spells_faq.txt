@@ -3,9 +3,8 @@ It allows us to use input and output commands like cin and cout.
 Basically, it is what lets us talk to the user through the console.
 
 🟢 2. Why do we write using namespace std;?
-This line saves time!
-Without it, you would have to write std::cout or std::cin every time.
-It is just a shortcut, not required, but makes your code cleaner.
+This line saves time, without it, you would have to write std::cout or std::cin every time.
+It helps make the code clean.
 
 🟢 3. What does string spells[3]; mean?
 That line creates an array that can store 3 words (spells in this case).
