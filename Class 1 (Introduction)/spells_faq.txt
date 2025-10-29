@@ -1,0 +1,55 @@
+🟢 1. What does #include <iostream> do?
+It allows us to use input and output commands like cin and cout.
+Basically, it is what lets us talk to the user through the console.
+
+🟢 2. Why do we write using namespace std;?
+This line saves time!
+Without it, you would have to write std::cout or std::cin every time.
+It is just a shortcut, not required, but makes your code cleaner.
+
+🟢 3. What does string spells[3]; mean?
+That line creates an array that can store 3 words (spells in this case).
+Think of it as 3 boxes labeled spells[0], spells[1], and spells[2].
+
+🟢 4. What’s the purpose of the first for loop?
+The first loop:
+for(int i = 0; i < 3; i++)
+is used to take input from the user.
+It runs three times, once for each spell the wizard will use.
+
+🟢 5. Why does the loop start with i = 0?
+Arrays in C++ start counting from 0, not 1.
+So, the first element is spells[0], the second is spells[1], and the third is spells[2].
+
+🟢 6. Why did we print i+1 instead of just i?
+It’s for better aesthetics ✨
+When we print spell numbers for the user, we want them to see 1, 2, 3, not 0, 1, 2, so we add 1.
+
+🟢 7. What does cin >> spells[i]; do?
+It takes user input and stores it inside the array.
+So if the user types “Fireball” it goes into spells[0], and so on.
+
+🟢 8. What’s happening in the second for loop?
+That loop displays all the spells the user entered.
+It runs through the same 3 array elements and prints them one by one like:
+Spell 1 -> Fireball
+Spell 2 -> Lightning
+Spell 3 -> Heal
+
+🟢 9. Why do we use endl in cout statements?
+endl moves the cursor to a new line (just like pressing Enter or Using \n in C).
+It helps make the output look neat and readable.
+
+🟢 10. What does cout and cin mean again?
+cout → stands for console output (used to print stuff) (see-out).
+cin → stands for console input (used to take input from the user) (see-in).
+They are both part of the iostream library.
+
+🟢 11. What does return 0; mean?
+It tells the computer, “The program ended successfully, no issues.”
+Almost every C++ program ends with this line inside main().
+
+🟢 12. What happens if I enter fewer or more than 3 spells?
+If you enter fewer, the program will still wait for all 3 inputs.
+If you try to enter more, it will not accept them because the array size is fixed at 3.
+
