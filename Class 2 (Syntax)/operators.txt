@@ -52,7 +52,7 @@ if (score >= 50) {
 
 🔹 SHORTHAND OPERATORS
 ------------------------------
-Shortcuts for writing common updates to variables
+Shortcuts for writing updates to variables
 a += 10;   → same as a = a + 10;  
 a -= 10;   → same as a = a - 10;  
 a /= 10;   → same as a = a / 10;  
