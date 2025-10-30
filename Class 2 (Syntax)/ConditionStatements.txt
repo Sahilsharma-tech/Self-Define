@@ -53,7 +53,7 @@ Used when you have to compare one variable with many possible values.
 Its a cleaner alternative to writing a long chain of if and else if statements.
 Note that we should use break after each case. If we dont, it will run all the cases.
 We should always use a default case so that if none of the cases match, it prints a default result.
-Example:
+Example ->
 int day = 3;
 switch(day) {
     case 1:
@@ -74,10 +74,10 @@ Wed
 🔹 TERNARY OPERATOR
 -----------------------------------
 One line version of if else.
-Syntax:
+Syntax ->
 (condition) ? value_if_true : value_if_false;
 
-Example:
+Example ->
 int marks = 16;
 string result = (marks >= 18) ? "Pass" : "Fail";
 cout << result;
