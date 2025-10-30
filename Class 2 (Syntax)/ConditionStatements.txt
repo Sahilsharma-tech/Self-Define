@@ -21,8 +21,8 @@ You passed
 -----------------------------------
 Used when you want one thing to happen if the condition is true and something else to happen if its false.
 Example ->
-int marks = 40;
-if (marks >= 50) {
+int marks = 10;
+if (marks >= 18) {
     cout << "You passed";
 } else {
     cout << "You failed";
