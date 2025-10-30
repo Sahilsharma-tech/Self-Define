@@ -30,7 +30,7 @@ Used when you want to check multiple conditions (mostly in if statements
 These work on bits (0s and 1s)
 &   → Bitwise AND  
 |   → Bitwise OR  
-^   → Bitwise XOR (exclusive OR)  
+^   → Bitwise XOR  
 >>  → Right shift (moves bits to the right)  
 <<  → Left shift (moves bits to the left)  
 
