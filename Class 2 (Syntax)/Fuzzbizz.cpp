@@ -3,7 +3,7 @@ using namespace std;
 int main () {
     int n;
     cin >> n;    
-    if(n % 3 == 0 and n % 5 == 0){ // Check for divisible by 3 and 5
+    if(n % 3 == 0 && n % 5 == 0){ // Check for divisible by 3 and 5
         cout << "Fizzbuzz" << endl;
     }
     else if(n % 3 == 0){ // Check for divisible by 3
