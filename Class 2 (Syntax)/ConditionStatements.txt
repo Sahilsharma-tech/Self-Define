@@ -71,16 +71,4 @@ switch(day) {
 Output ->
 Wed
 
-🔹 TERNARY OPERATOR
------------------------------------
-One line version of if else.
-Syntax ->
-(condition) ? value_if_true : value_if_false;
-
-Example ->
-int marks = 16;
-string result = (marks >= 18) ? "Pass" : "Fail";
-cout << result;
-Output ->
-Fail
 
