@@ -3,8 +3,7 @@
 Conditional statements are used to make decisions in a program.
 They let your code do something only if a certain condition is true.
 For example ->
-if you are older than 18, you can vote.
-Otherwise, you cant.
+If your marks are above 18, you passed, otherwise, you failed.
 
 🔹 IF STATEMENT
 -----------------------------------
@@ -47,4 +46,41 @@ if (marks >= 90) {
 }
 Output:
 Grade B
+
+🔹 SWITCH CASE STATEMENT
+-----------------------------------
+Used when you have to compare one variable with many possible values.
+Its a cleaner alternative to writing a long chain of if and else if statements.
+Note that we should use break after each case. If we dont, it will run all the cases.
+We should always use a default case so that if none of the cases match, it prints a default result.
+Example:
+int day = 3;
+switch(day) {
+    case 1:
+        cout << "Mon";
+        break;
+    case 2:
+        cout << "Tue";
+        break;
+    case 3:
+        cout << "Wed";
+        break;
+    default:
+        cout << "Invalid";
+}
+Output:
+Wed
+
+🔹 TERNARY OPERATOR
+-----------------------------------
+One line version of if else.
+Syntax:
+(condition) ? value_if_true : value_if_false;
+
+Example:
+int marks = 16;
+string result = (marks >= 18) ? "Pass" : "Fail";
+cout << result;
+Output:
+Fail
 
