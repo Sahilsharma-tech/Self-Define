@@ -1,0 +1,81 @@
+🔹 WHAT ARE LOOPS?
+-----------------------------------
+Loops are used when you want to run a block of code multiple time without having to write it again and again.
+Example ->
+If you want to print Hello 5 times, instead of:
+cout << "Hello";
+cout << "Hello";
+cout << "Hello";
+cout << "Hello";
+cout << "Hello";
+You can just use a loop.
+
+
+🔹 FOR LOOP
+-----------------------------------
+Used when you know exactly how many times you want to repeat something.
+
+Syntax:
+for (initialization; condition; updation) { // Remember using I C U
+    // code to repeat
+}
+
+Example:
+for (int i = 1; i <= 5; i++) {
+    cout << "Hello" << endl;
+}
+Output:
+Hello
+Hello
+Hello
+Hello
+Hello
+
+Explanation:
+int i = 1; → starting point
+i <= 5; → condition checked each time
+i++ → increases i by 1 after every loop
+
+
+🔹 WHILE LOOP
+-----------------------------------
+Used when you dont know before running the code that how many times you will loop.
+It keeps running as long as the condition is true.
+
+Syntax:
+while (condition) {
+    // code to repeat
+}
+Example:
+int i = 1;
+while (i <= 5) {
+    cout << i << endl;
+    i++;
+}
+Output:
+1
+2
+3
+4
+5
+
+
+🔹 DO WHILE LOOP
+-----------------------------------
+This is similar to the while loop but the main difference is that the code runs at least once even if the condition is false.
+
+Syntax:
+do {
+    // code to repeat
+} while (condition);
+Example:
+int i = 6;
+do {
+    cout << i << endl;
+    i++;
+} while (i <= 5);
+Output:
+6
+
+Explanation:
+Even though the condition (i <= 5) is false from the start the code still runs once before checking it.
