@@ -13,7 +13,7 @@ int marks = 18;
 if (marks >= 18) {
     cout << "You passed";
 }
-Output:
+Output ->
 You passed 
 (If marks were less than 18, nothing would print.)
 
@@ -27,7 +27,7 @@ if (marks >= 50) {
 } else {
     cout << "You failed";
 }
-Output:
+Output ->
 You failed
 
 🔹 ELSE IF LADDER
@@ -44,7 +44,7 @@ if (marks >= 90) {
 } else {
     cout << "Fail";
 }
-Output:
+Output ->
 Grade B
 
 🔹 SWITCH CASE STATEMENT
@@ -68,7 +68,7 @@ switch(day) {
     default:
         cout << "Invalid";
 }
-Output:
+Output ->
 Wed
 
 🔹 TERNARY OPERATOR
@@ -81,6 +81,6 @@ Example:
 int marks = 16;
 string result = (marks >= 18) ? "Pass" : "Fail";
 cout << result;
-Output:
+Output ->
 Fail
 
