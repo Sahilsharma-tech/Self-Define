@@ -1,0 +1,73 @@
+🔹 ARITHMETIC OPERATORS
+------------------------------
+These are the basic math symbols we use all the time.
++   → Adds two numbers
+      Example: 5 + 3 = 8
+-   → Subtracts one number from another
+      Example: 10 - 4 = 6
+*   → Multiplies numbers
+      Example: 2 * 6 = 12
+/   → Divides one number by another
+      Example: 9 / 3 = 3
+%   → Gives the remainder after division
+      Example: 10 % 3 = 1
+      (since 3 fits in 10 three times, remainder 1)
+
+
+🔹 LOGICAL OPERATORS
+------------------------------
+Used when you want to check multiple conditions (mostly in if statements).
+&&  (AND) → True only if both conditions are true  
+     Example: (age > 18 && hasLicense)
+||  (OR)  → True if any one condition is true  
+     Example: (age > 18 || parentPermission)
+!   (NOT) → Reverses the condition  
+     Example: !true becomes false, and !false becomes true
+
+
+🔹 BITWISE OPERATORS
+------------------------------
+These work on bits (0s and 1s). 
+&   → Bitwise AND  
+|   → Bitwise OR  
+^   → Bitwise XOR (exclusive OR)  
+>>  → Right shift (moves bits to the right)  
+<<  → Left shift (moves bits to the left)  
+(Think of shifting as multiplying or dividing by powers of 2.)
+
+
+🔹 COMPARISON OPERATORS
+------------------------------
+Used to compare two values.
+==  → Equal to  
+!=  → Not equal to  
+>   → Greater than  
+<   → Less than  
+>=  → Greater than or equal to  
+<=  → Less than or equal to  
+Example:
+if (score >= 50) {
+    cout << "You passed!";
+}
+
+
+🔹 SHORTHAND OPERATORS
+------------------------------
+Shortcuts for writing common updates to variables.
+a += 10;   → same as a = a + 10;  
+a -= 10;   → same as a = a - 10;  
+a /= 10;   → same as a = a / 10;  
+They save time and make code cleaner.
+
+
+🔹 INCREMENT & DECREMENT
+------------------------------
+Used to increase or decrease a number by 1.
+++a   → increases first, then uses the new value  
+a++   → uses the value first, then increases it  
+--a   → decreases first  
+a--   → uses then decreases  
+Example:
+int a = 5;
+cout << ++a;  // prints 6
+cout << a++;  // prints 6 (then becomes 7)
