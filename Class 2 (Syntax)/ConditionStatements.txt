@@ -24,12 +24,12 @@ Used when you want one thing to happen if the condition is true and something el
 Example ->
 int marks = 40;
 if (marks >= 50) {
-    cout << "You passed!";
+    cout << "You passed";
 } else {
-    cout << "You failed!";
+    cout << "You failed";
 }
 Output:
-You failed!
+You failed
 
 🔹 ELSE IF LADDER
 -----------------------------------
