@@ -19,6 +19,7 @@ You passed
 (If marks were less than 18, nothing would print.)
 
 🔹 IF ELSE STATEMENT
+-----------------------------------
 Used when you want one thing to happen if the condition is true and something else to happen if its false.
 Example ->
 int marks = 40;
@@ -31,6 +32,7 @@ Output:
 You failed!
 
 🔹 ELSE IF LADDER
+-----------------------------------
 Used when there are multiple conditions to check, one after another.
 Example -> 
 int marks = 85;
