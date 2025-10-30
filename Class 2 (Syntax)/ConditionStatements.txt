@@ -1,0 +1,48 @@
+🔹 WHAT ARE CONDITIONAL STATEMENTS?
+-----------------------------------
+Conditional statements are used to make decisions in a program.
+They let your code do something only if a certain condition is true.
+For example ->
+if you are older than 18, you can vote.
+Otherwise, you cant.
+
+🔹 IF STATEMENT
+-----------------------------------
+It runs a block of code only if the condition is true.
+Example ->
+int marks = 18;
+if (marks >= 18) {
+    cout << "You passed";
+}
+Output:
+You passed 
+(If marks were less than 18, nothing would print.)
+
+🔹 IF ELSE STATEMENT
+Used when you want one thing to happen if the condition is true and something else to happen if its false.
+Example ->
+int marks = 40;
+if (marks >= 50) {
+    cout << "You passed!";
+} else {
+    cout << "You failed!";
+}
+Output:
+You failed!
+
+🔹 ELSE IF LADDER
+Used when there are multiple conditions to check, one after another.
+Example -> 
+int marks = 85;
+if (marks >= 90) {
+    cout << "Grade A";
+} else if (marks >= 75) {
+    cout << "Grade B";
+} else if (marks >= 50) {
+    cout << "Grade C";
+} else {
+    cout << "Fail";
+}
+Output:
+Grade B
+
