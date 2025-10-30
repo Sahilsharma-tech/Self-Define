@@ -20,7 +20,7 @@ Used when you want to check multiple conditions (mostly in if statements).
 &&  (AND) → True only if both conditions are true  
      Example: (age > 18 && license)
 ||  (OR)  → True if any one condition is true  
-     Example: (age > 18 || permission)
+     Example: (age > 18 || license)
 !   (NOT) → Reverses the condition  
      Example: !true becomes false, and !false becomes true
 
