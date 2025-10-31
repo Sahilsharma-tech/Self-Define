@@ -15,7 +15,7 @@ int main() {
 
     int count = 0;
     for(int i = 0; i < n; i++) {
-        if(nums[i] == x) { //if number we want to chekc frequency for is present, increase count
+        if(nums[i] == x) { //if number we want to check frequency for is present, increase count
             count++;
         }
     }
@@ -23,4 +23,5 @@ int main() {
     cout << "Frequency of " << x << " = " << count << endl;
 
 }
+
 
