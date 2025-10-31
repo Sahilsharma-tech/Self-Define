@@ -15,10 +15,11 @@ int main() {
 
     int count = 0;
     for(int i = 0; i < n; i++) {
-        if(nums[i] == x) {
+        if(nums[i] == x) { //if number we enter is present, increase count
             count++;
         }
     }
 
     cout << "Frequency of " << x << " = " << count << endl;
+
 }
