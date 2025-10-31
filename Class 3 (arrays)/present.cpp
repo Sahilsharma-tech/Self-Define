@@ -15,15 +15,16 @@ int main() {
     int index;
     for(int i = 0; i < n; i++) {
         if(nums[i] == num) {
-            found = true;
+            found = true; //if number is present change the boolean value of present to true and then break out
             index = i; 
             break;     
         }
     }
 
-    if(found) {
+    if(found) { // check if found is true or false, if true, print the if statement and if false, print the else statement
         cout << "Element present at index: " << index << endl;
     } else {
         cout << "Element is not present";
     }
 }
+
