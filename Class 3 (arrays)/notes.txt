@@ -39,7 +39,7 @@ Some important points to note ->
 **** Using the for-each loop ****
 C++ has a built in loop that allows easy looping through arrays. 
 Syntax ->
-for (type variableName : arrayName) {
+for (type VariableName : ArrayName) {
   	// code
 }
 Example ->
