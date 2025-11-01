@@ -1,0 +1,107 @@
+------------------------
+   What are arrays?
+------------------------
+
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+They are used to store data with the same datatype.
+To declare an array, you can use the following format ->
+datatype name[number of elements];
+Example ->
+int nums[10];
+char letters[5];
+string languages[4] = {"Python", "C++", "Rust", "Assembly"};
+To access an element, we use the following format,
+cout << languages[0]; //This will print Python.
+
+Note ->
+1. You can also declare arrays using the following method ->
+int nums[] = {1,2,3}
+This is equal to ->
+int nums[3] = {1,2,3}
+However, you should avoid this method. It is best practice to always write the number of elements of the array.
+
+------------------------
+ Using loops in arrays
+------------------------
+
+You can use loops to loop through the elements of an array.
+Example ->
+string languages[4] = {"Python", "C++", "Rust", "Assembly"};
+for(int i = 0; i < 4; i++){
+    cout << languages[i] << endl;
+    }
+
+Some important points to note ->
+1) The first index of arrays is always 0.
+2) Hence, the loop runs from 0, to n-1 elements of the array.
+
+
+**** Using the for-each loop ****
+C++ has a built in loop that allows easy looping through arrays. 
+Syntax ->
+for (type variableName : arrayName) {
+  	// code
+}
+Example ->
+string languages[4] = {"Python", "C++", "Rust", "Assembly"};
+for(string language : languages){
+    cout << language << endl;
+   }
+
+
+------------------------
+ Getting size of array
+------------------------
+
+Let us consider an array ->
+int nums[5] = {1,2,3,4,5};
+Now, if we do,
+cout << sizeof(nums);
+We will get the output as 20, rather than 5. This is because the sizeof operator returns the size of a type in bytes.
+Since the int datatype is 4 bytes, 5*4 = 20. 
+Now, to prevent this problem, we will divide the output by the size of the datatype, or by the size of the first value in an array. 
+cout << sizeof(nums)/sizeof(int); 
+cout << sizeof(nums)/sizeof(nums[0]);
+Both these statements will give you the answer 5, which is the correct answer. 
+What we are actually doing here, is diving the size of the array by the size of the int datatype.
+So, 20 (size of array) / 4 (size of int) = 5 (correct answer).
+
+
+---------------------------
+ Input and Output in Array
+---------------------------
+
+It is very easy to take user input in an array and print the elements of the array. 
+Consider the following C++ program to print the elements of array after taking input from the user.
+
+#include <iostream>
+using namespace std;
+int main () {
+    int n; 
+    cin >> n; // number of elements to be printed in the array.
+    int nums[100];
+
+    for(int i = 0; i < n; i++){
+	cin >> nums[i]; // taking input of the elements of array.
+    }
+
+    for(int i = 0; i < n; i++){
+	cout >> nums[i] >> " "; // taking output of elements of array.
+    }
+
+    }
+
+Note ->
+1) You can use int nums[n] to declare the exact size of the array, but it is not a viable approach because ->
+--> You are trying to declare an array whose size is determined at runtime. This is called a variable length array.
+--> VLA's are not supported in C++, however they do work in C99.
+--> GCC compilers may allow it in the form of an extension, but it does not guarantee 100% working.
+--> Hence, best approach is to take the size of array as the number of max elements mentioned in the question.
+
+Some tips and tricks to solve the questions ->
+1) Using INT_MAX and INT_MIN rather than in finding maximum and minimum values of an array.
+(Think about finding the max and min values in an array have negative elements. Will they give the correct answer if 0 is used?)
+2) You can also read the values of an array backward. Use this concept in the swap question. 
+
+
+
