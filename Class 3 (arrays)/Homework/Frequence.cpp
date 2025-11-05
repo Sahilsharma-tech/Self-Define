@@ -27,5 +27,4 @@ int main() {
         cout << arr[i] << " appears " << count << " times" << endl;
     }
 
-    return 0;
 }
